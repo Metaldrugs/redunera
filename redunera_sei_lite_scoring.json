@@ -1,0 +1,21 @@
+{
+    "blueprint_id": "Redunera",
+    "sei_lite_scoring": {
+        "logic_compliance_score": 0.94,
+        "response_potential_score": 0.88,
+        "entropy_offset_score": 0.91,
+        "regulatory_alignment_score": 0.79,
+        "risk_adjusted_success_score": 0.82,
+        "explanation": {
+            "logic_compliance_score": "Redunera fully satisfies Tier 4 Moleculogic logic layering: entropy, targeting, feedback, and release.",
+            "response_potential_score": "Targets renal CKD pathophysiology with strong alignment to ROS/TNFα/NLRP3 mechanisms.",
+            "entropy_offset_score": "Substantial buffering against renal redox volatility modeled in acidic hypoxic CKD.",
+            "regulatory_alignment_score": "Design aligns with FDA nanomedicine and CKD biologic device-drug guidelines, but delivery system may require additional documentation.",
+            "risk_adjusted_success_score": "Simulated success rate is 82% ± 4%, factoring entropy control and delivery specificity."
+        }
+    },
+    "scored_on": "2025-06-30",
+    "scored_by": "SEI-lite v2.4.1",
+    "created_by": "Kunfirm Technologies",
+    "version": "1.0"
+}

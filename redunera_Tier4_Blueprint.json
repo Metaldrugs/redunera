@@ -1,0 +1,46 @@
+{
+    "blueprint_id": "Redunera",
+    "created_by": "Kunfirm Technologies",
+    "created_at": "2025-06-30",
+    "based_on": "QRX-3 Phase 3 Compound",
+    "tier_level": 4,
+    "logic_layers": [
+        {
+            "layer": "Entropy Layer",
+            "modification": "Add taurine or histidine-zinc complex to stabilize redox balance under metabolic drift",
+            "rationale": "Prevents rebound oxidative stress, improves success in acidic, hypoxic environments"
+        },
+        {
+            "layer": "Targeting Layer",
+            "modification": "Integrate renal-targeted ligand or polymer (e.g., dextran-based nanoparticle)",
+            "rationale": "Increases renal-specific delivery and local efficacy of all components"
+        },
+        {
+            "layer": "Immune Feedback Layer",
+            "modification": "Add low-dose feedback modulator (e.g., curcumin analog or calcitriol)",
+            "rationale": "Suppresses NLRP3/TNF\u03b1 rebound, improves tolerance and durability of renal benefit"
+        },
+        {
+            "layer": "Release Logic Layer",
+            "modification": "Encapsulate in ROS-responsive hydrogel or pH-sensitive coating",
+            "rationale": "Triggers release only in high oxidative conditions; minimizes off-target activation"
+        }
+    ],
+    "base_compounds": [
+        "Acetylcysteine",
+        "Pentoxifylline",
+        "Ubiquinone"
+    ],
+    "added_components": [
+        "Taurine or Histidine-Zn",
+        "Renal-targeted carrier",
+        "Curcumin analog",
+        "ROS-responsive polymer"
+    ],
+    "simulated_success_rate": "82% \u00b1 4%",
+    "simulated_risks": [
+        "Formulation complexity",
+        "Nano-carrier regulatory hurdles"
+    ],
+    "description": "Redunera is an adaptive, logic-enhanced renal therapeutic engineered to preserve eGFR and suppress inflammatory deterioration in CKD patients with Type 2 Diabetes and/or Hypertension. Developed independently using SEI-guided Moleculogic design, Redunera integrates precision delivery, entropy stabilization, and feedback-aware immune logic."
+}

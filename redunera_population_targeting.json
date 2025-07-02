@@ -1,0 +1,55 @@
+import json
+
+# Define the Redunera population targeting logic
+redunera_population_targeting = {
+    "blueprint_id": "Redunera",
+    "logic_targeting_profile": {
+        "indication": "Chronic Kidney Disease (CKD) with Type 2 Diabetes and/or Hypertension",
+        "age_range": "45-80",
+        "sex": "All",
+        "ethnicity_adjustments": {
+            "African ancestry": {
+                "risk_modifier": "↑",
+                "rationale": "Higher baseline oxidative burden and progression risk in hypertensive CKD"
+            },
+            "South Asian": {
+                "risk_modifier": "↑",
+                "rationale": "Elevated microvascular sensitivity and ROS vulnerability"
+            },
+            "European descent": {
+                "risk_modifier": "neutral",
+                "rationale": "Baseline reference group"
+            }
+        },
+        "renal_status_strata": {
+            "eGFR > 60": "Low-priority candidate",
+            "eGFR 30–60": "Primary target population",
+            "eGFR < 30": "Caution - monitor toxicity and entropy tolerance"
+        },
+        "contraindications": [
+            "Autoimmune nephritis (unless separately modulated)",
+            "Severe hepatic failure (affects metabolism of calcitriol/curcumin)",
+            "Concurrent chemotherapy"
+        ],
+        "modulation_response_predictors": {
+            "High baseline TNFα or NLRP3": "Responsive to immune feedback logic",
+            "Elevated urinary ROS biomarkers": "Responsive to entropy-release logic",
+            "Poor response to ACE inhibitors": "Suggests Redunera is complementary"
+        }
+    },
+    "sei_integration": {
+        "sei_lite_score_threshold": 0.72,
+        "adaptive_logic_flag": True,
+        "tier": 4
+    },
+    "version": "1.0",
+    "created_by": "Kunfirm Technologies",
+    "created_at": "2025-06-30"
+}
+
+# Save to JSON file
+population_targeting_path = "/mnt/data/redunera_population_targeting.json"
+with open(population_targeting_path, "w") as f:
+    json.dump(redunera_population_targeting, f, indent=4)
+
+print("File saved to:", population_targeting_path)

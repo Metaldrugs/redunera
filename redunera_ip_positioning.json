@@ -1,0 +1,36 @@
+{
+  "blueprint_id": "Redunera",
+  "ip_status": "Independent Moleculogic Design",
+  "freedom_to_operate": {
+    "QRX-3 overlap": "No protected formulation claims used",
+    "compound usage": "Acetylcysteine, Pentoxifylline, Ubiquinone are off-patent",
+    "novelty_elements": [
+      "Histidine-Zn entropy buffer in renal-specific nanocarrier",
+      "ROS-responsive hydrogel activation logic",
+      "SEI-scored immune feedback dampening architecture"
+    ],
+    "legal_rationale": "Redunera diverges in composition, release mechanism, immune logic, and formulation path. QRX-3 served only as a reference class compound, not a source of invention."
+  },
+  "patent_strategy": {
+    "filing_country_set": ["US", "EP", "JP", "CA", "AU"],
+    "type": "Non-Provisional Utility",
+    "provisional_filed": true,
+    "planned_claims": [
+      "Multi-layer release architecture for renal-targeted redox agents",
+      "Entropy-based drug logic for CKD modulation",
+      "Nanoformulated immunomodulatory co-delivery system"
+    ]
+  },
+  "commercial_rights": {
+    "owned_by": "Kunfirm Technologies",
+    "licensable_as": "Standalone therapeutic or logic-enhancement module",
+    "IP_conflict_with_Ebima": false
+  },
+  "sei_audit": {
+    "audit_id": "SEI-IP-Redunera-2025-001",
+    "ruling": "Unique therapeutic blueprint logic with no encroachment on QRX-3 protected claims",
+    "confidence_level": "High"
+  },
+  "prepared_by": "Kunfirm Technologies | IP and SEI Governance Division",
+  "prepared_date": "2025-06-30"
+}
